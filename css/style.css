@@ -1,0 +1,56 @@
+.item{
+    position: relative;
+}
+.itemDetails{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+}
+#fixedBox{
+    background-color: rgba(255, 253, 253, 0.1);
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 99999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+#smallBox{
+    background-image: url(../img/portfolio-2.jpg);
+    width: 50%;
+    height: 50%;
+    background-position: center center;
+    background-size: cover;
+    position: relative;    
+}
+.icons #left{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    cursor: pointer; 
+}
+.icons #right{
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    cursor: pointer;  
+}
+.icons #close{
+    position: absolute;
+    top: 2%;
+    right: 1%;
+    cursor: pointer;  
+}
+.item img{
+    cursor: pointer;
+}
